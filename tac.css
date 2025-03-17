@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 42px;
+}
+.container {
+    display: grid;
+    gap: 3px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    /* justify-content: center;
+    align-items: center; */
+
+    border: 2px solid rgb(21, 20, 20);
+    border-radius: 16px;
+    width: 500px;
+    height: 500px;
+    margin-left: 450px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(24, 24, 24, 0.9);
+}
+
+.container .box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(187, 187, 187);
+    border-radius: 14px;
+    box-shadow: 0 4px 8px rgba(101, 95, 95, 0.9);
+    background-color: #f0f0f0
+}
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 655px;
+    border-radius: 8px;
+    padding: 6px;
+    cursor: pointer;
+}
